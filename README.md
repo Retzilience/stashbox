@@ -8,7 +8,7 @@ Stashbox is a lightweight Python library designed for minimalistic data storage 
 - **Persistence**: Optionally persist data to disk, allowing it to survive program restarts.
 - **Compression**: Reduce the storage size of your data with built-in compression.
 - **Expiry**: Set an expiry time for stashed data, automatically removing it when it expires.
-- **Logging**: Keep track of stashed operations with optional logging.
+- **Logging**: Keep track of stashed operations with optional logging. On by default.
 
 ## Installation
 
@@ -85,7 +85,7 @@ print(metadata)
 stashbox.set_default_expiry(86400)  # Default expiry to 1 day
 stashbox.set_default_persistence(True)  # Enable persistence by default
 stashbox.set_default_compression(True)  # Enable compression by default
-stashbox.set_default_logging(True)  # Enable logging by default
+stashbox.set_default_logging(False)  # Disables logging by default
 ```
 
 ## Contributing
