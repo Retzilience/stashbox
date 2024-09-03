@@ -5,6 +5,7 @@ description = "A minimal data storage and retrieval library."
 authors = ["retzilience <contato@retzilience.xyz>"]
 license = "BSD-3-Clause"
 readme = "README.md"
+repository = "https://github.com/Retzilience/stashbox"
 
 [tool.poetry.dependencies]
 python = "^3.10"
